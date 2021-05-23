@@ -1,0 +1,6 @@
+string=input("Enter your text here\n")
+string=string.replace("  "," ")
+string=string.replace(".",". ")
+string=string.replace(",",", ")
+string=string.capitalize()
+print(string)
